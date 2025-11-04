@@ -1,0 +1,3 @@
+pysocketio
+fastapi
+uvicorn[standard]
