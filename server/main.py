@@ -5,7 +5,7 @@ from sockets import sio_app
 
 
 app = FastAPI()
-app.mount('/', app=sio_app)
+app.mount('/ws', app=sio_app)
 
 app.add_middleware(
     CORSMiddleware,
